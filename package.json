@@ -24,8 +24,11 @@
     "supertest": "^3.1.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+=======
+>>>>>>> b87fbe03a55356ba719954c2f1f8fba7cdae9072
     "mongoose": "^5.2.3"
   }
 }
