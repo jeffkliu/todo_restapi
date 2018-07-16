@@ -4,12 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeffliu0/mongoose.git"
+  },
+  "engines":{
+    "node": "8.11.3"
   },
   "author": "",
   "license": "ISC",
