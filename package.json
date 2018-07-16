@@ -1,35 +1,28 @@
 {
-  "name": "server",
+  "name": "node-todo-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeffliu0/mongoose.git"
-  },
-  "engines":{
-    "node": "8.11.3"
+  "engines": {
+    "node": "6.2.2"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeffliu0/mongoose/issues"
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.9"
   },
-  "homepage": "https://github.com/jeffliu0/mongoose#readme",
   "devDependencies": {
     "expect": "^1.20.2",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.2",
-    "supertest": "^3.1.0"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.3"
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "supertest": "^2.0.0"
   }
 }
