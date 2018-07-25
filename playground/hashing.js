@@ -10,7 +10,7 @@ var password = '123abc';
 // 	});
 // });
 
-var hashedPassword = '$2a$10$XKKBPa/RSpMq.aSVDxG3xOhN.cG30ve/JeKNOs6KF3RBiBlZHDcXq';
+var hashedPassword = '$2a$10$XKKBPa/RSpMq.aSVDxG3xOhN.cG30ve/JbKNOs6KF3RBiBlZHDcXq';
 
 bcrypt.compare(password, hashedPassword, (err,res)=>{
 	console.log(res);
