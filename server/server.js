@@ -151,6 +151,9 @@ app.get('/users/me', authenticate, (req, res) => {
   res.send(req.user);
 });
 
+app.get('/users', (req,res)=>{
+  res.send({users});
+});
 app.listen(port, () => {
   console.log(`Started up at port ${port}`);
 });
